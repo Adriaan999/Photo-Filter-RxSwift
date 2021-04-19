@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import RxSwift
 
 class ViewController: UIViewController {
 
@@ -13,7 +14,4 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.navigationController?.navigationBar.prefersLargeTitles = true
     }
-
-
 }
-

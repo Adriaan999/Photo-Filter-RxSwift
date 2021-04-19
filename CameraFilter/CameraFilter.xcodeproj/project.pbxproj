@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		639A747C262DB5DE00AFBB1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639A747B262DB5DE00AFBB1E /* Assets.xcassets */; };
 		639A747F262DB5DE00AFBB1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639A747D262DB5DE00AFBB1E /* LaunchScreen.storyboard */; };
 		639A748F262DC69B00AFBB1E /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A748E262DC69B00AFBB1E /* PhotosCollectionViewController.swift */; };
+		639A7499262DD29900AFBB1E /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A7498262DD29900AFBB1E /* PhotoCollectionViewCell.swift */; };
 		B32664160D9827075D955FDA /* Pods_CameraFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2FCD128CCD3813D9D40004 /* Pods_CameraFilter.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		639A747E262DB5DE00AFBB1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		639A7480262DB5DE00AFBB1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		639A748E262DC69B00AFBB1E /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		639A7498262DD29900AFBB1E /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		7A2FCD128CCD3813D9D40004 /* Pods_CameraFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CameraFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AFEF302FFCF5D2F8E2BC4E7 /* Pods-CameraFilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraFilter.debug.xcconfig"; path = "Target Support Files/Pods-CameraFilter/Pods-CameraFilter.debug.xcconfig"; sourceTree = "<group>"; };
 		B6865BE15F5825EC4DA70FD1 /* Pods-CameraFilter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraFilter.release.xcconfig"; path = "Target Support Files/Pods-CameraFilter/Pods-CameraFilter.release.xcconfig"; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				639A747D262DB5DE00AFBB1E /* LaunchScreen.storyboard */,
 				639A7480262DB5DE00AFBB1E /* Info.plist */,
 				639A748E262DC69B00AFBB1E /* PhotosCollectionViewController.swift */,
+				639A7498262DD29900AFBB1E /* PhotoCollectionViewCell.swift */,
 			);
 			path = CameraFilter;
 			sourceTree = "<group>";
@@ -91,7 +94,6 @@
 				7AFEF302FFCF5D2F8E2BC4E7 /* Pods-CameraFilter.debug.xcconfig */,
 				B6865BE15F5825EC4DA70FD1 /* Pods-CameraFilter.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -212,6 +214,7 @@
 				639A7477262DB5DC00AFBB1E /* ViewController.swift in Sources */,
 				639A7473262DB5DC00AFBB1E /* AppDelegate.swift in Sources */,
 				639A7475262DB5DC00AFBB1E /* SceneDelegate.swift in Sources */,
+				639A7499262DD29900AFBB1E /* PhotoCollectionViewCell.swift in Sources */,
 				639A748F262DC69B00AFBB1E /* PhotosCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
