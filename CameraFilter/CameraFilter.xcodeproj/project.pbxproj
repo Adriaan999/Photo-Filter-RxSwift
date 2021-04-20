@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		632925E2262EF67800137E0E /* FilterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632925E1262EF67800137E0E /* FilterService.swift */; };
 		639A7473262DB5DC00AFBB1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A7472262DB5DC00AFBB1E /* AppDelegate.swift */; };
 		639A7475262DB5DC00AFBB1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A7474262DB5DC00AFBB1E /* SceneDelegate.swift */; };
 		639A7477262DB5DC00AFBB1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A7476262DB5DC00AFBB1E /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		632925E1262EF67800137E0E /* FilterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterService.swift; sourceTree = "<group>"; };
 		639A746F262DB5DC00AFBB1E /* CameraFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		639A7472262DB5DC00AFBB1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		639A7474262DB5DC00AFBB1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				639A7480262DB5DE00AFBB1E /* Info.plist */,
 				639A748E262DC69B00AFBB1E /* PhotosCollectionViewController.swift */,
 				639A7498262DD29900AFBB1E /* PhotoCollectionViewCell.swift */,
+				632925E1262EF67800137E0E /* FilterService.swift */,
 			);
 			path = CameraFilter;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				639A7477262DB5DC00AFBB1E /* ViewController.swift in Sources */,
 				639A7473262DB5DC00AFBB1E /* AppDelegate.swift in Sources */,
 				639A7475262DB5DC00AFBB1E /* SceneDelegate.swift in Sources */,
+				632925E2262EF67800137E0E /* FilterService.swift in Sources */,
 				639A7499262DD29900AFBB1E /* PhotoCollectionViewCell.swift in Sources */,
 				639A748F262DC69B00AFBB1E /* PhotosCollectionViewController.swift in Sources */,
 			);

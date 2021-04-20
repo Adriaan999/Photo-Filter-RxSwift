@@ -18,26 +18,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zQ4-k9-Y9u">
-                                <rect key="frame" x="0.0" y="88" width="414" height="672"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="720"/>
                             </imageView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="eRz-rk-Ouq">
-                                <rect key="frame" x="136" y="807" width="148" height="30"/>
+                                <rect key="frame" x="10" y="802" width="394" height="50"/>
                                 <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Bpp-1T-vMi"/>
+                                </constraints>
                                 <state key="normal" title="Apply Filter">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="applyFilterButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="zei-zZ-rN1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="zQ4-k9-Y9u" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="9zg-6E-BgM"/>
-                            <constraint firstItem="zQ4-k9-Y9u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UYM-lx-taP"/>
-                            <constraint firstItem="eRz-rk-Ouq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="136" id="Vy2-o0-Ufr"/>
-                            <constraint firstItem="zQ4-k9-Y9u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hjM-3C-oEl"/>
-                            <constraint firstItem="eRz-rk-Ouq" firstAttribute="top" secondItem="zQ4-k9-Y9u" secondAttribute="bottom" constant="47" id="l0T-qs-Mjo"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eRz-rk-Ouq" secondAttribute="bottom" constant="25" id="l1g-Hf-VI7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eRz-rk-Ouq" secondAttribute="trailing" constant="130" id="raE-aI-t34"/>
+                            <constraint firstItem="zQ4-k9-Y9u" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="45H-Tm-Xuw"/>
+                            <constraint firstItem="zQ4-k9-Y9u" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="8Gm-dX-oNd"/>
+                            <constraint firstAttribute="trailing" secondItem="eRz-rk-Ouq" secondAttribute="trailing" constant="10" id="VKL-gU-Nkf"/>
+                            <constraint firstItem="zQ4-k9-Y9u" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VcB-KD-54P"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eRz-rk-Ouq" secondAttribute="bottom" constant="10" id="WKr-Jh-dzf"/>
+                            <constraint firstItem="eRz-rk-Ouq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="aKf-Ur-B2h"/>
+                            <constraint firstItem="zQ4-k9-Y9u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bZV-uK-VUM"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Camera Filter" id="VLm-ze-TqR">
@@ -48,6 +54,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="applyFilterButton" destination="eRz-rk-Ouq" id="wSl-CB-v51"/>
                         <outlet property="photoImageView" destination="zQ4-k9-Y9u" id="lPI-U4-jKm"/>
                     </connections>
                 </viewController>
